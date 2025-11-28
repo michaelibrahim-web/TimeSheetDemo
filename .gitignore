@@ -1,0 +1,73 @@
+﻿# ================================
+# .NET 9 / SDK-style project gitignore
+# ================================
+.vs/
+# Build output
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Rider IDE
+.idea/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# EF Core migrations
+Migrations/
+
+# Publish output
+publish/
+*.Publish.xml
+
+# Logs
+*.log
+
+# Temporary ASP.NET files
+App_Data/
+wwwroot/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Debug symbols, coverage, profiling
+*.pdb
+*.pidb
+*.cache
+*.ilk
+*.dotCover
+*.opencover
+*.coverage
+*.coverlet*
+
+# Test results
+TestResults/
+*.trx
+*.xml
+
+# Others
+*.bak
+*.backup
+*.vsix
+*.dbmdl
